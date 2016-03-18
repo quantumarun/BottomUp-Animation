@@ -14,6 +14,7 @@
 		F4CBC9BA1C9C084E006FF30E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4CBC9B91C9C084E006FF30E /* Assets.xcassets */; };
 		F4CBC9BD1C9C084E006FF30E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4CBC9BB1C9C084E006FF30E /* LaunchScreen.storyboard */; };
 		F4CBC9C71C9C086F006FF30E /* UIView+BottomAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = F4CBC9C61C9C086F006FF30E /* UIView+BottomAnimation.m */; };
+		F4CBC9F41C9C24F3006FF30E /* color1.png in Resources */ = {isa = PBXBuildFile; fileRef = F4CBC9F31C9C24F3006FF30E /* color1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		F4CBC9BE1C9C084E006FF30E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4CBC9C51C9C086F006FF30E /* UIView+BottomAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BottomAnimation.h"; sourceTree = "<group>"; };
 		F4CBC9C61C9C086F006FF30E /* UIView+BottomAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BottomAnimation.m"; sourceTree = "<group>"; };
+		F4CBC9F31C9C24F3006FF30E /* color1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = color1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 		F4CBC9AC1C9C084E006FF30E /* Animations */ = {
 			isa = PBXGroup;
 			children = (
+				F4CBC9F31C9C24F3006FF30E /* color1.png */,
 				F4CBC9C41C9C086F006FF30E /* Category */,
 				F4CBC9B01C9C084E006FF30E /* AppDelegate.h */,
 				F4CBC9B11C9C084E006FF30E /* AppDelegate.m */,
@@ -150,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4CBC9BD1C9C084E006FF30E /* LaunchScreen.storyboard in Resources */,
+				F4CBC9F41C9C24F3006FF30E /* color1.png in Resources */,
 				F4CBC9BA1C9C084E006FF30E /* Assets.xcassets in Resources */,
 				F4CBC9B81C9C084E006FF30E /* Main.storyboard in Resources */,
 			);
@@ -314,6 +318,7 @@
 				F4CBC9C31C9C084E006FF30E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

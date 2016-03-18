@@ -17,4 +17,5 @@
 
 ****************************************************************************************/
 -(void) messageSlideOut:(NSString*)titleMessage;
+-(void) messageSlideOut:(NSString*)titleMessage withImage:(NSString*) showImage;
 @end

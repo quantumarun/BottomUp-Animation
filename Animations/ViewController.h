@@ -8,10 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UITextFieldDelegate>
 
 
-- (IBAction)btnClicked:(UIButton *)sender;
+@property (weak, nonatomic) IBOutlet UITextField *textField;
+
+- (IBAction)btnWithoutImage:(UIButton *)sender;
+
+- (IBAction)btnClick:(UIButton *)sender;
 
 @end
 
