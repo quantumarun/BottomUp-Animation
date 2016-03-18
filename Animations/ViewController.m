@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "UIView+BottomAnimation.h"
 
 @interface ViewController ()
 
@@ -24,4 +25,7 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)btnClicked:(UIButton *)sender {
+    [self.view messageSlideOut:@"Sliding Out"];
+}
 @end

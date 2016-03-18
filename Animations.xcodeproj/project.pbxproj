@@ -13,6 +13,7 @@
 		F4CBC9B81C9C084E006FF30E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4CBC9B61C9C084E006FF30E /* Main.storyboard */; };
 		F4CBC9BA1C9C084E006FF30E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4CBC9B91C9C084E006FF30E /* Assets.xcassets */; };
 		F4CBC9BD1C9C084E006FF30E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4CBC9BB1C9C084E006FF30E /* LaunchScreen.storyboard */; };
+		F4CBC9C71C9C086F006FF30E /* UIView+BottomAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = F4CBC9C61C9C086F006FF30E /* UIView+BottomAnimation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		F4CBC9B91C9C084E006FF30E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4CBC9BC1C9C084E006FF30E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4CBC9BE1C9C084E006FF30E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4CBC9C51C9C086F006FF30E /* UIView+BottomAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BottomAnimation.h"; sourceTree = "<group>"; };
+		F4CBC9C61C9C086F006FF30E /* UIView+BottomAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BottomAnimation.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		F4CBC9AC1C9C084E006FF30E /* Animations */ = {
 			isa = PBXGroup;
 			children = (
+				F4CBC9C41C9C086F006FF30E /* Category */,
 				F4CBC9B01C9C084E006FF30E /* AppDelegate.h */,
 				F4CBC9B11C9C084E006FF30E /* AppDelegate.m */,
 				F4CBC9B31C9C084E006FF30E /* ViewController.h */,
@@ -77,6 +81,15 @@
 				F4CBC9AE1C9C084E006FF30E /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F4CBC9C41C9C086F006FF30E /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				F4CBC9C51C9C086F006FF30E /* UIView+BottomAnimation.h */,
+				F4CBC9C61C9C086F006FF30E /* UIView+BottomAnimation.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4CBC9C71C9C086F006FF30E /* UIView+BottomAnimation.m in Sources */,
 				F4CBC9B51C9C084E006FF30E /* ViewController.m in Sources */,
 				F4CBC9B21C9C084E006FF30E /* AppDelegate.m in Sources */,
 				F4CBC9AF1C9C084E006FF30E /* main.m in Sources */,
